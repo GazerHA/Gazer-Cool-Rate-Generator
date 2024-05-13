@@ -18,7 +18,7 @@ local function CoolRate(displayName)
     
     if player then
         local coolness = math.random(1, 100)
-        local output = "!coolrate " .. player.DisplayName .. "                                                                                                                             {output}: ".."@" .. player.DisplayName .. " is " .. coolness .. "% Cool!"
+        local output = "!CoolRate " .. player.DisplayName .. "                                                                                                                             {Output}  ".."@" .. player.DisplayName .. " (" .. "@" .. player.Name .. ")" .. " is " .. coolness .. "% cool!"
         local A_1 = output
         local A_2 = "All"
         if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
